@@ -1,0 +1,87 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    /* margin: 70px; */
+    margin-top: 10;
+}
+.Header{
+    text-align: center;
+}
+.P_header{
+    margin-top: 0;
+}
+.Nvi ul{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    border:solid;
+    border-radius: 20px;
+    margin: 20px;
+    list-style: none;
+    padding: 20px;
+    background-color: darkblue;
+    color: white;
+    
+}
+ul li:hover{
+    color: gold;
+}
+
+.contener{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.card{
+    
+    border:solid;
+    border-color: whitesmoke;
+    width: 250px;
+    border-radius: 10px;
+    margin-left: 20px;
+} 
+.img{
+    width: 250px;
+    border-radius: 5px;
+    object-fit: contain;
+    
+}
+.labell{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.star{
+    align-items: center;
+    color: blue;
+    border-radius: 5px;
+    background-color: whitesmoke;
+}
+.conten h3{
+    margin: 10px;
+}
+.conten p{
+    
+    margin: 10px;
+}
+.rating{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    gap: 5px;
+}
+.card_foodter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card_one{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+.card_two{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
